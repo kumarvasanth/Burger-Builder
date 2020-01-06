@@ -1,0 +1,22 @@
+.nav {
+  background-color: black;
+  padding: 0.5rem 0.5rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.navlinks {
+  list-style-type: none;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+
+.navlink {
+  color: gray;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  transition: all 0.3s linear;
+}
